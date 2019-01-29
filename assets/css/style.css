@@ -1,0 +1,163 @@
+.flex {
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+  background-color: white;
+  width: 960px;
+}
+
+body {
+  background-image: url(../images/background.png);
+  margin: 0 auto;
+  height: 100vh;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  background-color: #666666;
+  border-top: 0.5em solid #4aaaa5;
+  padding: 2em 0em 0em 0em;
+  flex-shrink: 0;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #ffffff;
+}
+
+#name {
+  color: #ffffff;
+  background-color: #4aaaa5;
+  padding: 0.75em;
+  margin: 0em;
+}
+
+.vb {
+  width: 2px;
+  border-color: gray;
+}
+
+#about {
+  flex-direction: column;
+  background-color: white;
+  max-width: 960px;
+  margin: 0 auto;
+  flex: 1 0 auto;
+  padding: 0em 1.5em;
+}
+
+.rightb {
+  border-right: 0.1em solid gray;
+}
+
+.navl {
+  padding: 0.75em;
+  align-self: center;
+  text-decoration: none;
+  text-align: center;
+  color: gray;
+}
+
+p {
+  line-height: 1.6;
+  display: inline;
+  margin: 0;
+}
+
+.aeT {
+  background-color: #ffffff;
+  justify-content: center;
+  display: flex;
+  border-bottom: 0.2em solid gray;
+}
+
+h1 {
+  color: #4aaaa5;
+  background-color: #ffffff;
+  padding: 0.5em;
+}
+
+#middle {
+  margin: 1em 0em 0em 0em;
+}
+
+#dhmtrl {
+  width: 960px;
+  height: auto;
+}
+
+.sporego {
+  width: 128px;
+  height: 128px;
+  float: left;
+}
+
+.auto {
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 300px;
+  width: 300px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #4aaaa5;
+}
+
+.icon {
+  height: 256px;
+  width: 256px;
+}
+
+.imageflex {
+  flex-flow: column wrap;
+  height: 600px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container11 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.bcw {
+  background-color: white;
+}
