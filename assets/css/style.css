@@ -161,3 +161,27 @@ input[type="submit"]:hover {
 .bcw {
   background-color: white;
 }
+
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 980px) {
+  #about {
+    background-color: purple;
+  }
+}
+@media (max-width: 768px) {
+  #about {
+    background-color: blue;
+  }
+}
+@media (max-width: 640px) {
+  #about {
+    background-color: yellow;
+  }
+}
